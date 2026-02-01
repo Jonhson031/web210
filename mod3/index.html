@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Maksym Yaremko,
+    WEB 210, Module 3, 02/01/2026 -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB 210 | Module 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #eae4e4;
+        }
+
+        header,
+        footer {
+            background-color: #344a80;
+            color: #FFF;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            max-width: 1400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 100px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .decoration {
+            min-width: 100%;
+            height: auto
+        }
+
+        input {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            width: 300px;
+            max-width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>WEB 210 Module 3. WCAG Principle 1 — PERCEIVABLE. Guideline 1.1 Text Alternatives</h1>
+    </header>
+    <main>
+        <section class="image-section">
+            <h2>Example 1: Campus Image</h2>
+            <p>
+                This image includes descriptive alternative text so that a screen reader user
+                can understand what is shown.
+            </p>
+
+            <img src="campus-building.jpg"
+                alt="A modern college campus building with large glass windows and a front lawn">
+        </section>
+        <section class="image-section">
+            <h2>Example 2: Logo Image</h2>
+            <p>
+                Logos should also include alt text that describes what they represent.
+            </p>
+            <img src="harper-college-logo.png" alt="Harper College official logo">
+        </section>
+        <section class="image-section">
+            <h2>Example 3: Decorative Image</h2>
+            <p>
+                If an image is purely decorative, it should have empty alt text.
+                This tells screen readers to skip it.
+            </p>
+            <img class="decoration" src="decoration.jpg" alt="">
+        </section>
+        <section class="input-section">
+            <h2>Example 3: Input</h2>
+            <input type="image" src="button.jpg" alt="Submit your email address">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Maksym Yaremko | WEB 210</p>
+    </footer>
+</body>
+
+</html>
