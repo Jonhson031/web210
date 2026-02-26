@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="Yaremkocontact.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <main>
+            <form action="http://webdevbasics.net/scripts/demo.php" method="post">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+                <label for="email">E-mail Address:</label>
+                <input type="email" id="email" name="email" required>
+                <fieldset>
+                    <legend>How did you hear about this website?</legend>
+                    <label>
+                        <input type="radio" name="source" value="Search Engine" required>
+                        Search Engine
+                    </label>
+                    <label>
+                        <input type="radio" name="source" value="Friend">
+                        Referred by a Friend
+                    </label>
+                    <label>
+                        <input type="radio" name="source" value="Twitter">
+                        Twitter
+                    </label>
+                    <label>
+                        <input type="radio" name="source" value="Other">
+                        Other
+                    </label>
+                </fieldset>
+                <label for="comments">Comments or Questions:</label>
+                <textarea id="comments" name="comments" rows="5"></textarea>
+                <div class="buttons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+
+            </form>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>

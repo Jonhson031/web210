@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+fieldset {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+fieldset label {
+    display: block;
+    margin-top: 5px;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px;
+    margin-right: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #444;
+}
